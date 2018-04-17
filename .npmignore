@@ -1,0 +1,7 @@
+.*
+*.md
+*.yml
+*.lock
+build/
+node_modules/
+src/
