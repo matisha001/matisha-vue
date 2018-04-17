@@ -19,8 +19,8 @@ module.exports = merge(webpackBaseConfig, {
     output: {
         path: path.resolve(__dirname, '../dist'),
         publicPath: '/dist/',
-        filename: 'eview.js',
-        library: 'eview',
+        filename: 'matisha-vue.js',
+        library: 'matisha-vue',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },

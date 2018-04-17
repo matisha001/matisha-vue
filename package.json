@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "title": "matisha-ui-vue",
   "description": "vue ui for vue-menu by matisha001 ",
-  "main": "dist/matisha-vue-menu.min.js",
+  "main": "dist/matisha-vue.min.js",
   "files": [
     "dist",
     "src"
@@ -35,6 +35,9 @@
     "url": "https://github.com/matisha001/matisha-vue/issues"
   },
   "homepage": "https://github.com/matisha001/matisha-vue#readme",
+  "peerDependencies": {
+    "vue": "^2.5.16"
+  },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
